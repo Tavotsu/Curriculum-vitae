@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gustavo Santana Fuentes</h1>
+        <div>
+            <img src="20231124_212925.jpg" width="300">
+            
+        </div>
+    </header>
+        <!-- Navegacion -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#sobre_mi">Sobre mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <!-- Datos personales -->
+
+    <section id="sobre_mi">
+        <h2>Datos personales</h2>
+        <p>
+            
+            &#9679;<strong>  Nombre:</strong> Gustavo Santana Fuentes<br>
+            &#9679;<strong>  Fecha de nacimiento:</strong> 14-06-2005<br>
+            &#9679;<strong>  Correo:</strong> gustavosantanafue@gmail.com<br>
+            &#9679;<strong>  GitHub: <a href="https://github.com/Tavotsu">Click aqui</a>
+        </p>
+
+    </section>
+    <br>
+        <!-- Experiencia laboral -->
+    <br>
+    <section>
+        <h2>Experiencia laboral</h2>
+           
+        <ol>
+            <article>
+                <div class="titulo">&#9679; GAM (VENTA DE COMIDA RAPIDA), PUERTO MONTT</div>
+                <br>
+                <div class="detalle">&#9675; Periodo: 2023-11 - 2024-07</div>
+                <br>
+                <div class="detalle">&#9675; Apoyo en la Creación y Optimización de Canales de Venta Digital</div>
+                <br>
+                <div class="detalle">&#9675; Part-time</div>
+                
+            </article>
+            <br>
+            <article>
+                <div class="titulo">&#9679; FIRST Lego League Regional, Puerto Montt</div>
+                <br>
+                <div class="detalle">&#9675; Periodo: 2024-11 - 2024-11</div>
+                <br>
+                <div class="detalle">&#9675; Arbitro</div>
+            </article>
+        </ol>
+    </section>
+    <!-- Educacion y ceritificiones -->
+    <section>
+       
+        <h2>Educacion: </h2>
+        <table>
+            <tr>
+                <th><strong>Establecimiento</strong></th>
+                <th><strong>Niveles cursados</strong></th>
+                <th><strong>Periodo</strong></th>
+            </tr>
+            <tr>
+                <th>Colegio Chileno Norteamericano</th>
+                <th>Educacion Basica | 1ro - 5to</th>
+                <th>2012 - 2016</th>
+            </tr>
+            <tr>
+                <th>Colegio Pumahue Puerto Montt</th>
+                <th>Educacion Basica - Media | 6to - 4to medio</th>
+                <th>2017 - 2023</th>
+            </tr>
+            <tr>
+                <th>Duoc UC sede Puerto Montt</th>
+                <th>Educacion Superior<br>Ingenieria en informatica </th>
+                <th>2024 - Actualidad</th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <h2>Certificaciones: </h2>
+        <br>
+        <table>
+            <tr>
+                <th>Nombre del certificado</th>
+                <th>Fecha de certificacion</th>
+            </tr>
+            <tr>
+                <th>Cambridge English Certificate</th>
+                <th>2022-12</th>
+            </tr>
+            <tr>
+                <th>Liderazgo y emprendimiento empresarial - Colegio Pumahue</th>
+                <th>2023</th>
+            </tr>
+            <tr>
+                <th><button popovertarget="CertPython">Python Essential 1 - Cisco Networking Academy</button></th>
+                <th>2024-06</th>
+            </tr>
+            
+        </table>
+        <div id="CertPython" popover>
+            <div class="pdf-container">
+              <!-- Incrustación del PDF usando el elemento iframe -->
+              <iframe src="https://drive.google.com/file/d/16DyU-nsRPKIX8OYMnVIZMgJ4OGHb-Pgc/view?usp=sharing" width="800" height="600"></iframe>
+            </div>
+    </section>
+
+    <!-- Habilidades -->
+    <br>
+    <br>
+    <section>
+        <h2>Habilidades: </h2>
+        <ul>
+            <li>Amplia experiencia en el uso de computadores.</li>
+            <li>Capacidad rapida para aprender y utilizar programas informaticos.</li>
+            <li>Conocimientos basicos en lenguajes de programacion tales como: Java, Python y SQL.</li>
+            <li>Trabajo en equipo.</li>
+            <li>Capacidad organizativa.</li>
+            <li>Comunicación Interpersonal.</li>
+            <li>Colaboracion y adaptabilidad.</li>
+            <li>Ingles: B1</li>
+            <li>Español: Nativo</li>
+        </ul>
+    </section>
+
+    <dialog id="miDialogo">
+        <h2>Título del diálogo</h2>
+        <p>Este es el contenido del diálogo.</p>
+        <button id="cerrarDialogo">Cerrar</button>
+      </dialog>
+      
+      <button id="abrirDialogo">Abrir diálogo</button>
+      
+      <script>
+        const dialogo = document.getElementById('miDialogo');
+        const abrirBtn = document.getElementById('abrirDialogo');
+        const cerrarBtn = document.getElementById('cerrarDialogo');
+      
+        abrirBtn.addEventListener('click', () => {
+          dialogo.showModal(); // Abre como modal
+          // dialogo.show(); // Abre como no modal
+        });
+      
+        cerrarBtn.addEventListener('click', () => {
+          dialogo.close();
+        });
+      </script>
+
+    <footer>
+        <style>
+            footer{
+                font-size: small;
+            }
+        </style>
+        Derechos reservados&copy;
+        <br>
+        Gustavo Santana Fuentes
+    </footer>
+</body>
+</html>
