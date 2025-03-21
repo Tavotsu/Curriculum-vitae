@@ -45,10 +45,15 @@ footer{
     height: 2px;
     background-color: #030303;
     border-radius: 4px;
-  }
+}
 .divisorfooter {
     width: 100%;
     border: 1;
     height: 1px;
     background-color: #030303;
-  }
+}
+.enviarinfo{
+    background-color: white;
+    border-radius: 6px;
+    border-width: 2px;
+}

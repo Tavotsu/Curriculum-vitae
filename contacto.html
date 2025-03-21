@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Contacto</title>
 </head>
 <body>
-    
+    <h1> Formulario de contacto</h1>
+  <form action="index.html">
+    <!-- Nombre -->
+    <div>
+      <label for="nombre"><strong>Nombre:</strong> </label>
+      <br>
+      <input type="text" name="nombre" required>
+    </div>
+    <br>
+    <br>
+    <!-- Correo -->
+
+    <div>
+      <label for="correo"><strong>Correo electronico:</strong> </label>
+      <br>
+      <input type="text" name="correo" required>
+    </div>
+    <br>
+    <br>
+    <!-- Contraseña -->
+
+    <div>
+      <label for="contrasena"><strong>Contraseña: </strong> </label>
+      <br>
+      <input type="password" name="contrasena" required>
+    </div>
+    <br>
+    <h3>Opcional:</h3>
+    <div>
+        <label for="telefono"><strong>Numero de contacto:</strong> </label>
+        <br>
+        <input type="number" name="telefono">
+      </div>
+    <div>
+        <h4>¿Por donde prefiere ser contactado?</h3>
+      <input type="radio" name="radio">
+      <label for=""><strong>Correo electronico</strong></label>
+
+      <input type="radio" name="radio">
+      <label for=""><strong>Numero telefonico</strong></label>
+    </div>
+    <br>
+    <br>
+
+    <button type="submit" class="enviarinfo"> <strong>Enviar</strong></button>
+  </form>
+
 </body>
 </html>
