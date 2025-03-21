@@ -29,3 +29,8 @@ table, th, td {
 .titulo{
     font-size: large;
 }
+button{
+    background-color: transparent;
+    border-radius: 4px;
+    border-width: 1px;
+}

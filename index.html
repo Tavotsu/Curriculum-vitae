@@ -103,11 +103,11 @@
                 <th>Fecha de certificacion</th>
             </tr>
             <tr>
-                <th>Cambridge English Certificate</th>
+                <th><button popovertarget="CertEng">Cambridge English Certificate</button></th>
                 <th>2022-12</th>
             </tr>
             <tr>
-                <th>Liderazgo y emprendimiento empresarial - Colegio Pumahue</th>
+                <th><button popovertarget="CertEmp">Liderazgo y emprendimiento empresarial - Colegio Pumahue</button></th>
                 <th>2023</th>
             </tr>
             <tr>
@@ -116,11 +116,33 @@
             </tr>
             
         </table>
+
+        <!-- iframe certificado cambridge  -->
+
+        <div id="CertEng" popover>
+            <div class="pdf-container">
+              <!-- Incrustación del PDF usando el elemento iframe -->
+              <iframe src="Cambridge certificate.pdf" width="800" height="600"></iframe>
+            </div>
+        </div>
+
+        <!-- iframe certificado emprendimiento -->
+
+        <div id="CertEmp" popover>
+            <div class="pdf-container">
+              <!-- Incrustación del PDF usando el elemento iframe -->
+              <iframe src="Certificado emprendimiento_.pdf" width="800" height="600"></iframe>
+            </div>
+        </div>
+
+        <!-- iframe Certificado python -->
+
         <div id="CertPython" popover>
             <div class="pdf-container">
               <!-- Incrustación del PDF usando el elemento iframe -->
-              <iframe src="https://drive.google.com/file/d/16DyU-nsRPKIX8OYMnVIZMgJ4OGHb-Pgc/view?usp=sharing" width="800" height="600"></iframe>
+              <iframe src="Python.pdf" width="800" height="600"></iframe>
             </div>
+        </div>
     </section>
 
     <!-- Habilidades -->
