@@ -15,7 +15,9 @@
             
         </div>
     </header>
+
         <!-- Navegacion -->
+
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
@@ -27,6 +29,7 @@
     <br>
     <br>
 
+    <hr class="divisor">
     <!-- Datos personales -->
 
     <section id="sobre_mi">
@@ -41,7 +44,10 @@
 
     </section>
     <br>
+
         <!-- Experiencia laboral -->
+        <hr class="divisor">
+
     <br>
     <section>
         <h2>Experiencia laboral</h2>
@@ -67,7 +73,10 @@
             </article>
         </ol>
     </section>
+
     <!-- Educacion y ceritificiones -->
+    <hr class="divisor">
+
     <section>
        
         <h2>Educacion: </h2>
@@ -95,8 +104,9 @@
         </table>
         <br>
         <br>
+
         <h2>Certificaciones: </h2>
-        <br>
+        <h5>Haga click en los nombres para ir a los respectivos certificados.</h5>
         <table>
             <tr>
                 <th>Nombre del certificado</th>
@@ -121,7 +131,6 @@
 
         <div id="CertEng" popover>
             <div class="pdf-container">
-              <!-- Incrustación del PDF usando el elemento iframe -->
               <iframe src="Cambridge certificate.pdf" width="800" height="600"></iframe>
             </div>
         </div>
@@ -130,7 +139,6 @@
 
         <div id="CertEmp" popover>
             <div class="pdf-container">
-              <!-- Incrustación del PDF usando el elemento iframe -->
               <iframe src="Certificado emprendimiento_.pdf" width="800" height="600"></iframe>
             </div>
         </div>
@@ -139,13 +147,16 @@
 
         <div id="CertPython" popover>
             <div class="pdf-container">
-              <!-- Incrustación del PDF usando el elemento iframe -->
               <iframe src="Python.pdf" width="800" height="600"></iframe>
             </div>
         </div>
     </section>
 
+    <br>
     <!-- Habilidades -->
+    <br>
+    <hr class="divisor">
+
     <br>
     <br>
     <section>
@@ -160,41 +171,14 @@
             <li>Colaboracion y adaptabilidad.</li>
             <li>Ingles: B1</li>
             <li>Español: Nativo</li>
+            <br>
         </ul>
     </section>
-
-    <dialog id="miDialogo">
-        <h2>Título del diálogo</h2>
-        <p>Este es el contenido del diálogo.</p>
-        <button id="cerrarDialogo">Cerrar</button>
-      </dialog>
-      
-      <button id="abrirDialogo">Abrir diálogo</button>
-      
-      <script>
-        const dialogo = document.getElementById('miDialogo');
-        const abrirBtn = document.getElementById('abrirDialogo');
-        const cerrarBtn = document.getElementById('cerrarDialogo');
-      
-        abrirBtn.addEventListener('click', () => {
-          dialogo.showModal(); // Abre como modal
-          // dialogo.show(); // Abre como no modal
-        });
-      
-        cerrarBtn.addEventListener('click', () => {
-          dialogo.close();
-        });
-      </script>
-
+    <hr class="divisorfooter">
     <footer>
-        <style>
-            footer{
-                font-size: small;
-            }
-        </style>
-        Derechos reservados&copy;
+        Derechos reservados &copy;
         <br>
-        Gustavo Santana Fuentes
+        Gustavo Santana Fuentes | 2025
     </footer>
 </body>
 </html>
