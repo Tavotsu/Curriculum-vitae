@@ -57,3 +57,13 @@ footer{
     border-radius: 6px;
     border-width: 2px;
 }
+.qr{
+    float: none;
+    border-radius: 0px;
+    
+}
+div.relative{
+    position: relative;
+    left: 40000px;
+    border: 3px;
+}
